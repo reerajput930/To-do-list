@@ -62,7 +62,6 @@ function deltodo(event){
  }
   if(item.classList == 'check-btn'){
     let todo = item.parentElement;
-    markstorage(todo)
     todo.classList.toggle('complete')
  }
 
